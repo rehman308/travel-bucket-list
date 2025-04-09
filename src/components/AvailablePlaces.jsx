@@ -5,7 +5,7 @@ import ErrorPage from './ErrorPage.jsx';
 import { fetchAvailablePlaces } from '../utils/utils.js';
 
 // Remove it if running with Backend
-import places from '../assets/places.json'
+import {places} from '../assets/places.js'
 
 /**
  * Displays a list of available travel places fetched from the backend.
